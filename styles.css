@@ -1,6 +1,7 @@
 html {
   font-family: sans-serif;
   font-size: 125%;
+  hyphens: auto;
   line-height: 1.37;
   text-rendering: optimizeLegibility;
 }
@@ -19,4 +20,20 @@ header[role=banner] {
 
 footer[role=contentinfo] {
   text-align: right;
+}
+
+a[href] {
+  color: #3344dd;
+  text-decoration: none;
+}
+
+a[href]:hover,
+a[href]:focus,
+a[href]:active {
+  color: #bb1122;
+  text-decoration: underline;
+}
+
+a[href]:visited {
+  color: #884488;
 }
