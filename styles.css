@@ -12,6 +12,10 @@ footer[role=contentinfo] {
   max-width: 37rem;
 }
 
+header[role=banner] {
+  text-align: center;
+}
+
 footer[role=contentinfo] {
   text-align: right;
 }
