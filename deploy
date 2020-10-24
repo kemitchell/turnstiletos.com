@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 site=turnstiletos.com
-rsync -a --delete ./*.html ./*.css $site:/var/www/$site/
+rsync -a --delete ./*.html ./*.css ./*.txt $site:/var/www/$site/
