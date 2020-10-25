@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 site=turnstiletos.com
-rsync -a --delete --exclude *.md --exclude .git --exclude .editorconfig ./ $site:/var/www/$site/
+rsync -a --delete --exclude *.md --exclude tidy.config --exclude .git --exclude .editorconfig --exclude deploy --exclude format ./ $site:/var/www/$site/
