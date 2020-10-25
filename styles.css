@@ -8,6 +8,7 @@ html {
 
 header[role=banner],
 main[role=main],
+nav[role=navigation],
 footer[role=contentinfo] {
   margin-left: auto;
   margin-right: auto;
@@ -16,6 +17,15 @@ footer[role=contentinfo] {
 
 header[role=banner] {
   text-align: center;
+}
+
+nav[role=navigation] {
+  text-align: center;
+}
+
+nav[role=navigation] a {
+  display: inline-block;
+  margin: 0 0.5rem;
 }
 
 footer[role=contentinfo] {
