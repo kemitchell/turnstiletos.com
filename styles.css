@@ -37,3 +37,8 @@ a[href]:active {
 a[href]:visited {
   color: #884488;
 }
+
+.conspicuous {
+  font-style: italic;
+  font-weight: bold;
+}
