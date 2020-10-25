@@ -19,6 +19,8 @@ header[role=banner] {
 }
 
 footer[role=contentinfo] {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
   text-align: right;
 }
 
