@@ -1,6 +1,5 @@
 html {
   font-family: Arial, sans-serif;
-  hyphens: auto;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
 }
@@ -9,9 +8,11 @@ header[role=banner],
 main[role=main],
 nav[role=navigation],
 footer[role=contentinfo] {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: 1rem auto;
   max-width: 33rem;
+  padding: 0 1.5rem;
+  text-align: left;
 }
 
 header[role=banner] {
