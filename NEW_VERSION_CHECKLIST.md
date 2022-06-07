@@ -1,0 +1,4 @@
+- [ ] Create `{version}.html`.
+- [ ] Update link in `index.html`.
+- [ ] Add link and release notes to `versions.html`.
+- [ ] Update Red links in `nav` elements.
