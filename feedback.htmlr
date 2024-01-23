@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="standard terms of service for websites">
+  <title>Improve Turnstile</title>
+  <link href="https://readable.kemitchell.com/all.css" rel="stylesheet">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Improve Turnstile">
+  <meta name="twitter:description" content="standard terms of service for websites">
+  <meta name="twitter:image" content="https://turnstiletos.com/social-image.png">
+  <meta name="og:type" content="website">
+  <meta name="og:title" content="Improve Turnstile">
+  <meta name="og:description" content="standard terms of service for websites">
+  <meta name="og:image" content="https://turnstiletos.com/social-image.png">
+  <meta name="og:site" content="Turnstile">
+</head>
+<body>
+  <header role="banner">
+    <h1>Turnstile</h1>
+    <p>standard terms of service for websites</p>
+  </header>
+  <nav role="navigation">
+    <a href="1.0.2">Read</a> <a href="use">Use</a> <a href="feedback">Feedback</a>
+  </nav>
+  <main role="main">
+    <h1>Help Improve Turnstile</h1>
+    <p>Comments about Turnstile and turnstiletos.com are very welcome. Feel free to e-mail <a href="mailto:kyle@kemitchell.com">kyle@kemitchell.com</a> anytime.</p>
+    <p>The source files for turnstiletos.com are <a href="https://github.com/kemitchell/turnstiletos.com">on GitHub</a>.</p>
+  </main>
+</body>
+</html>
