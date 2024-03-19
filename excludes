@@ -1,0 +1,7 @@
+excludes
+NEW_VERSION_CHECKLIST.md
+tidy.config
+.git
+.editorconfig
+deploy
+format

@@ -1,4 +1,11 @@
 #!/bin/sh
 set -e
 site=turnstiletos.com
-rsync -a --delete --exclude NEW_EDITION_CHECKLIST.md --exclude tidy.config --exclude .git --exclude .editorconfig --exclude deploy --exclude format ./ $site:/var/www/$site/
+rsync \
+  --checksum \
+  --out-format "%n" \
+  --recursive \
+  --delete \
+  --delete-excluded \
+  --exclude-from excludes \
+  ./ $site:/var/www/$site/
